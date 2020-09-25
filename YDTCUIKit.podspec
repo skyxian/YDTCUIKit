@@ -2,10 +2,10 @@ Pod::Spec.new do |s|
   s.name             = 'YDTCUIKit'
   s.version          = '0.1.0'
   s.summary          = 'A short description of YDTCUIKit.'
-  s.homepage         = 'git@github.com:skyxian/YDTCUIKit.git'
+  s.homepage         = 'https://github.com/skyxian/YDTCUIKit.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kindvoon' => 'hukaiwen@miliantech.com' }
-  s.source           = { :git => 'git@github.com:skyxian/YDTCUIKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/skyxian/YDTCUIKit.git', :tag => s.version.to_s }
   
   s.swift_version = '5.1'
   s.pod_target_xcconfig = {
